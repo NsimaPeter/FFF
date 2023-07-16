@@ -279,3 +279,71 @@
     line-height: 2rem;
   }
 
+  /* core-values */
+.core-values {
+    margin: 2rem;
+  }
+  
+  .core-values h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 2rem 0;
+  }
+  
+  .core-values .core-values-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .core-values .core-values-container .core-values-content {
+    border: solid 0.2rem var(--black);
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .core-values img {
+    width: 100%;
+    height: 12rem;
+  }
+  
+  .core-values .core-values-content h2 {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    padding: 0 0 1rem;
+  }
+  
+  .core-values .core-values-content p {
+    font-size: 1rem;
+  }
+
+  /* goals and objectives */
+.goals {
+    padding: 2rem 0;
+  }
+  
+  .goals h2 {
+    font-size: 3rem;
+    color: var(--black);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2rem 0;
+  }
+  
+  .goals .goals-content {
+    background-color: var(--bright);
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.4rem;
+  }
+  
+  .goals .goals-content p {
+    padding: 1rem 0;
+  }
+  /* About page end */
+
+
