@@ -349,7 +349,7 @@
   /* Gallery styles */
   .gallery-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../image/img.jul-2.JPG");
+      url("../image/jul.fff.JPG");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -394,5 +394,75 @@
     color: var(--yellow);
   }
   /* Gallery styles end */
+
+  /* contact styles */
+.contact {
+    background: url("../image/img.jul-2.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+  }
+  
+  .contact h2 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    width: 30rem;
+    color: var(--black);
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: #a3a3a3;
+    padding: 2rem 0;
+    max-width: 55rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact form [type="email"],
+  .contact form [type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form [type="email"]:focus,
+  contact form [type="text"]:focus {
+    outline: none;
+    border-color: var(--black);
+  }
+  
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light);
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
 
