@@ -233,3 +233,49 @@
     transition: background-color 0.3s ease;
   }
 
+   /* About page styles */
+
+.about-hero {
+    background-image: url("../image/img-juble\ \(1\).JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+  }
+  
+  .about-hero h2 {
+    font-size: 3rem;
+    color: var(--white);
+    padding: 3rem 2rem;
+  }
+  
+  /* about history */
+  .history {
+    padding: 3rem 0;
+  }
+  
+  .history h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 0 2rem;
+  }
+  
+  .history .history-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 5rem;
+    padding: 2rem;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  .history .history-container .history-contents h3 {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .history .history-container .history-contents p {
+    line-height: 2rem;
+  }
+
